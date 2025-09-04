@@ -3,7 +3,7 @@
 ### Requirments
 * node.js ([Download](https://nodejs.org/en/download/))
 * Firebase admin service account key (Settings -> Users & Permissions -> Service accounts)
-* ```npm install express```
+* ```npm install express firebase-admin```
 
 
 ### Firebase Setup
