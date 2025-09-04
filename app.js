@@ -14,7 +14,7 @@ app.post('/user_report', db.user_report);
 app.post('/dev_verify', db.dev_verify);
 
 // returns pending verification
-app.get('/dev_pending', );
+app.get('/dev_pending', db.dev_pending);
 
 app.listen(8080, "127.0.0.1");
 
