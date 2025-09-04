@@ -4,7 +4,7 @@ const db = require("./controller");
 const app = express();
 app.use(express.json());
 
-//For checking if given link is a threat, or just unverified by devs
+// for checking if given link is a threat, or just unverified by devs
 app.post('/user_check', db.user_check);
 
 // update pending when user submit request for reporting
@@ -17,3 +17,4 @@ app.post('/dev_verify', db.dev_verify);
 app.get('/dev_pending', );
 
 app.listen(8080, "127.0.0.1");
+
